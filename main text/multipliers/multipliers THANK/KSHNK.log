@@ -1,0 +1,159 @@
+Starting Dynare (version 6.1).
+Calling Dynare with arguments: noclearall
+Starting preprocessing of the model file ...
+Found 95 equation(s).
+Evaluating expressions...
+Computing static model derivatives (order 1).
+Normalizing the static model...
+Finding the optimal block decomposition of the static model...
+13 block(s) found:
+  12 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 32 equation(s)
+                                 and 32 feedback variable(s).
+Computing dynamic model derivatives (order 1).
+Normalizing the dynamic model...
+Finding the optimal block decomposition of the dynamic model...
+10 block(s) found:
+  9 recursive block(s) and 1 simultaneous block(s).
+  the largest simultaneous block has 38 equation(s)
+                                 and 32 feedback variable(s).
+Preprocessing completed.
+Preprocessing time: 0h00m00s.
+[Warning: Some of the parameters have no value (alp,
+tauH, F, tauS, tauN, PIN, lambdans, lambdasn,
+lambdahn, lambdanh, lambdahh, nuN, nuH, nuS, nu) when
+using steady. If these parameters are not initialized
+in a steadystate file or a steady_state_model-block,
+Dynare may not be able to solve the model. Note that
+simul, perfect_foresight_setup, and
+perfect_foresight_solver do not automatically call
+the steady state file.] 
+
+STEADY-STATE RESULTS:
+
+UCS      		 2.33513
+UCH      		 2.33513
+UCN      		 2.33513
+UHH      		 -3.59369
+UHN      		 -3.59369
+CS       		 0.428241
+CH       		 0.428241
+CN       		 0.428241
+HH       		 0.33
+HS       		 0.33
+HN       		 0.33
+UHS      		 -3.59369
+H        		 0.33
+R        		 1.0101
+Rn       		 1.0101
+PIE      		 1
+W        		 1.53896
+Y        		 0.757997
+YW       		 0.909596
+MPL      		 1.84676
+MC       		 0.833333
+C        		 0.428241
+Z        		 1
+profits  		 5.55112e-17
+profitsS 		 6.93976e-17
+LI       		 0.507858
+LShare   		 0.67
+K        		 7.12626
+MPK      		 0.0421212
+RK       		 0.035101
+I        		 0.178157
+IS       		 0.222724
+KS       		 8.90894
+KShare   		 0.33
+LP       		 1
+S        		 0
+X        		 1
+Sdash    		 0
+Q        		 1
+P        		 1
+G        		 0.151599
+tax      		 0.169056
+taxS     		 0.169056
+taxH     		 0.169056
+taxN     		 0.169056
+BS       		 1.69367
+BH       		 0.0345647
+BN       		 2.99801e-17
+ZH       		 0
+ZS       		 2.16056
+ZN       		 0
+B        		 1.72823
+SB       		 2.28
+Y_obs    		 -0.277076
+C_obs    		 -0.848069
+H_obs    		 -1.10866
+W_obs    		 0.431109
+PIE_obs  		 0
+R_obs    		 0.0100503
+Rn_obs   		 0.0100503
+CS_obs   		 -0.848069
+CH_obs   		 -0.848069
+P_obs    		 7.3234e-17
+B_obs    		 2.28
+ZS_obs   		 2.85036
+G_obs    		 0.2
+tax_obs  		 0.22303
+LI_obs   		 -0.677553
+LS_obs   		 -0.400478
+ZH_obs   		 0
+KS_obs   		 -1.10866
+K_obs    		 1.96379
+I_obs    		 -1.72509
+HH_obs   		 -1.10866
+HS_obs   		 -1.10866
+HN_obs   		 -1.10866
+CSl_obs  		 -0.67837
+CHl_obs  		 -0.169614
+ZHl_obs  		 0
+ZSl_obs  		 2.28
+BH_obs   		 0.0456
+BS_obs   		 2.2344
+ZN_obs   		 0
+BN_obs   		 3.95517e-17
+ZNl_obs  		 0
+CNl_obs  		 -8.48069e-05
+HHl_obs  		 -0.221733
+HSl_obs  		 -0.886819
+HNl_obs  		 -0.000110866
+CN_obs   		 -0.848069
+Sconst   		 0.0255836
+RK_obs   		 0.0100503
+LP_obs   		 0
+EM       		 1
+Q_obs    		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+       7.216e-17        7.216e-17                0
+       1.481e-16       -1.481e-16                0
+        2.17e-08         2.17e-08                0
+        2.17e-08        -2.17e-08                0
+          0.0174           0.0174                0
+          0.2075           0.2075                0
+             0.3              0.3                0
+            0.75             0.75                0
+          0.8336           0.8336                0
+             0.9              0.9                0
+          0.9611           0.9611                0
+          0.9718           0.9718                0
+          0.9998           0.9998                0
+           1.036            1.036                0
+           1.103            1.088           0.1761
+           1.103            1.088          -0.1761
+           1.283            1.283                0
+           5.112            5.112                0
+       2.199e+17        2.199e+17                0
+       6.164e+24        6.164e+24                0
+             Inf              Inf                0
+             Inf              Inf                0
+
+There are 9 eigenvalue(s) larger than 1 in modulus for 9 forward-looking variable(s)
+The rank condition is verified.
+
+Total computing time : 0h00m00s
+Note: warning(s) encountered in MATLAB/Octave code

@@ -1,0 +1,21 @@
+function [y, T] = dynamic_8(y, x, params, steady_state, sparse_rowval, sparse_colval, sparse_colptr, T)
+  y(178)=params(35)*y(176);
+  y(179)=params(35)*y(183);
+  y(139)=params(29)*params(33)*y(143)+params(35)*params(36)*y(144);
+  y(174)=y(140)/(steady_state(18));
+  y(175)=y(139)/(steady_state(18));
+  y(157)=y(145)/(steady_state(18));
+  y(186)=log(y(129));
+  y(156)=y(118)/(steady_state(18));
+  y(185)=log((y(218)+(1-params(5))*y(227))/y(133));
+  y(153)=log(y(109));
+  y(152)=log(y(108));
+  y(151)=log(y(110));
+  y(150)=log(y(111));
+  y(149)=log(y(107));
+  y(148)=log(y(116));
+  y(147)=log(y(112));
+  y(106)=(-params(43))*y(104)^params(3);
+  y(136)=y(135);
+  y(146)=y(145)/y(112);
+end
